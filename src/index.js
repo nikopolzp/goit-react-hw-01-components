@@ -27,8 +27,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
-      <FriendList />
-      <TransactionHistory />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </App>
   </React.StrictMode>
 );
